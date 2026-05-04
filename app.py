@@ -64,4 +64,4 @@ with st.sidebar:
     if st.button("❌ Exit"):
         st.stop()
 st.markdown("---")
-st.caption("                                                                                   Developed by: Your Name | ECE Department")
+st.caption("                                                                                   Developed by: spurthi | ECE Department")
