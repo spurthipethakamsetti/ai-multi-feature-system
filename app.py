@@ -58,4 +58,4 @@ The system is modular, scalable, and designed using Python and Streamlit.
 
 
 st.markdown("---")
-st.caption("                                                                                   Developed by: spurthi | ECE Department")
+st.caption("Developed by: spurthi | ECE Department")
