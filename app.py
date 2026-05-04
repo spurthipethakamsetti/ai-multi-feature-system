@@ -58,5 +58,10 @@ The system is modular, scalable, and designed using Python and Streamlit.
 
 
 with st.sidebar:
-    st.markdown("### 👩‍💻 Developed by")
-    st.write("##############Spurthi")
+    st.markdown(
+        """
+        <p style="font-size:40px; font-weight:bold;">👩‍💻 Developed by</p>
+        <p style="font-size:30px;">Spurthi</p>
+        """,
+        unsafe_allow_html=True
+    )
