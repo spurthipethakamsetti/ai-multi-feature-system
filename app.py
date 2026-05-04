@@ -38,7 +38,7 @@ with tab2:
 with tab3:
     st.subheader("🎤 Text to Speech")
     speech_text = st.text_input("Enter text to speak")
-   if st.button("Speak"):
+    if st.button("Speak"):
       file_path = text_to_speech(speech_text)
       audio_file = open(file_path, "rb")
       audio_bytes = audio_file.read()
