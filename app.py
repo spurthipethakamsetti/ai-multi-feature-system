@@ -36,10 +36,13 @@ with tab2:
 
 # SPEECH (Text → Voice)
 with tab3:
-    st.header("🎤 Text to Speech")
-    speech_text = st.text_input("Enter text to speak")
-    if st.button("Speak"):
-        text_to_speech(speech_text)
+    st.subheader("🎤 Text to Speech")
+   speech_text = st.text_input("Enter text to speak")
+   if st.button("Speak"):
+      file_path = text_to_speech(speech_text)
+      audio_file = open(file_path, "rb")
+      audio_bytes = audio_file.read()
+      st.audio(audio_bytes, format="audio/mp3")
 
 st.markdown("---")
 st.subheader("📊 Project Overview")
