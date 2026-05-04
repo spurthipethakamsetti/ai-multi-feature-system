@@ -60,8 +60,8 @@ The system is modular, scalable, and designed using Python and Streamlit.
 with st.sidebar:
     st.markdown(
         """
-        <p style="font-size:20px; font-weight:bold;">👩‍💻 Developed by</p>
-        <p style="font-size:18px; text-align:center;">Spurthi</p>
+        <p style="font-size:30px; font-weight:bold;">👩‍💻 Developed by</p>
+        <p style="font-size:25px; text-align:center;">Spurthi</p>
         """,
         unsafe_allow_html=True
     )
