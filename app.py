@@ -56,15 +56,6 @@ This AI Multi-Feature System integrates:
 The system is modular, scalable, and designed using Python and Streamlit.
 """)
 
-with st.sidebar:
-    st.title("Controls")
 
-    if st.button("🔄 Reset"):
-        st.session_state.clear()
-        st.rerun()
-
-    if st.button("❌ Exit"):
-        st.warning("App closed. Refresh to use again.")
-        st.stop()
 st.markdown("---")
 st.caption("                                                                                   Developed by: spurthi | ECE Department")
